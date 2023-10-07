@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(https://wallpapers.com/images/hd/mechanical-engineering-wheels-eq4h5bru0veejh9a.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+:root{
+    --bg-color: linear-gradient(120deg, #fda1c7 0%, #c2e9fb 100%);
+    --bg-input: #fff;
+    --main-color: #4ca4d6;
+    --text-color:#fff;
+    
+}
+
+.dni-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container .title{
+    text-align: center;
+    color: var(--bg-input);
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-family: 'Lobster', cursive;
+}
+input{
+    margin-left: 10px;
+    font-size: 20px;
+    width: 450px;
+    outline: none;
+    border: none;
+    size: 50px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    border: solid 2px #2248A1;
+    border-radius: 5px;
+}
+.card{
+    font-weight: 800;
+    background-image: url(https://media.istockphoto.com/id/1164704600/es/foto/programadora-femenina-trabajando-en-un-nuevo-proyecto.jpg?s=612x612&w=0&k=20&c=rhIlDja-o8cjh0KLTTD6oNy4UDz1XeHQQy7K2Wxf1PQ=);
+    border-radius: 18px;
+    width: 600px;
+    height: 292px;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    margin: 0px 0px;
+    margin-top: 5px;
+    width: 60px;
+}
+.img{
+    display: flex; 
+    align-items: center;
+    text-align: center;
+    height: 80px;
+    margin-left: 20px;
+    border-radius: 5px;
+    width: 50px;
+    background-color: white;
+    padding: 30px;
+}
+i{
+    font-size: 50px;
+    color: #264186;
+}
+button{
+    font-size: 20px;
+    margin: 10px 0px;
+    margin-left: 85px;
+    border: #264186;
+    border-radius: 5px;
+    background-color: #264186;
+    color: #fff;
+    width: 400px;
+    height: 30px;
+}
+p{
+    margin: 10px 20px;
+}
+.somos{
+    margin-top: 200px;
+    margin-left: -150px;
+    width: 150px;
+}
+.hora{
+    font-size: 30px;
+    margin-bottom: 170px;
+    margin-left: 80px;
+}
